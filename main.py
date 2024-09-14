@@ -1,5 +1,4 @@
 import pyttsx3 as p
-import speech_recognition as sr
 from Music import MusicPlayer
 from Selenium_web import infow
 from News import fetch_news
@@ -12,6 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 import datetime
+import speech_recognition as sr
 News_api_key = os.getenv('News_api_key')
 
 # Initialize text-to-speech engine
