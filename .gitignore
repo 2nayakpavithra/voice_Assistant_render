@@ -1,0 +1,12 @@
+# Ignore compiled Python files and cache
+__pycache__/
+*.pyc
+
+# Ignore directories
+voiceAssistant/
+wget/
+.idea/
+chromedriver-win64/
+
+# Ignore environment files
+apid.env
